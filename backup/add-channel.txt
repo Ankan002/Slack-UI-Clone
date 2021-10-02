@@ -1,0 +1,12 @@
+<!-- Add Channel Section -->
+<div class="add-channel">
+    <img src="./assets/images/5cb480cd5f1b6d3fbadece79.png" alt="" class="image" />
+    <h2 class="text-heading">Add New Channel</h2>
+    <input type="text" class="channel-name-input" placeholder="Channel Name">
+    <select name="privacy" class=".select-privacy">
+        <option value="privacy">Select Privacy</option>
+        <option value="public">Public</option>     
+        <option value="private">Private</option>   
+    </select>
+    <Button class="add-channel-create-channel">Create Channel</Button>
+</div>

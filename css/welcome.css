@@ -1,0 +1,45 @@
+.welcome{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-welcome{
+    max-width: 700px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.two{
+    font-size: 40px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.welcome-create-channel{
+    margin-top: 40px;
+    width: 20%;
+    height: 40px;
+    font-size: 15px;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #0a8d48;
+    transition: all .3s ease;
+}
+
+.welcome-create-channel:hover{
+    cursor: pointer;
+    background-color: #1C7947;
+}
+
+.error{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: red;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/chatScreen.css">
+    <link rel="stylesheet" href="./css/addChannel.css">
+    <link rel="stylesheet" href="./css/welcome.css">
+    <script src="https://kit.fontawesome.com/64f409bd22.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.1/dist/jdenticon.min.js" async
+        integrity="sha384-l0/0sn63N3mskDgRYJZA6Mogihu0VY3CusdLMiwpJ9LFPklOARUcOiWEIGGmFELx" crossorigin="anonymous">
+    </script>
+    <title>codedamn Project</title>
+</head>
+<body>
+    <div class="main-app">
+        <!-- NavBar -->
+    <nav class='main-navbar'>
+        <div class="nav-left">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-search"></i>
+            <input type="text" class="search-input" placeholder="Search tutorial-daltonic" />
+            <i class="far fa-question-circle"></i>
+        </div>
+        <div class="nav-right">
+            <svg data-jdenticon-value="Ankan" width="60" height="50" class="profile-icon">
+                Fallback text or image for browsers not supporting inline svg.
+            </svg>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <div class="main-section">
+        <!-- Left Section -->
+        <div class="main-left-section">
+            <!-- Profile Editorial Sign Section -->
+            <div class="profile-editorial-section">
+                <div class="profile-status">
+                    <h4 class="chat-name">Cometchat(e)</h4>
+                    <p class="user-name"><span><i class="fas fa-circle"></i></span>Ankan</p>
+                </div>
+                <div class="edit-button">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </div>
+            <!-- Threads-section -->
+            <div class="chat-thread-decider-section">
+                <p class="thread thread-section-style"><span><i class="far fa-comment-alt"></i></span>Thread</p>
+                <p class="mentions thread-section-style"><span><i class="fas fa-at"></i></span>Mentions and Reactions</p>
+                <p class="more thread-section-style"><span><i class="fas fa-ellipsis-v"></i></span>More</p>
+            </div>
+            <hr class="horizontal-line"/>
+            <p class="channels thread-section-style"><span><i class="fas fa-chevron-down"></i></span>Channels</p>
+            <hr class="horizontal-line"/>
+            <p class="add add-channel-left"><span><i class="fas fa-plus"></i></span>Add Channel</p>
+            <hr class="horizontal-line"/>
+            <p class="dm thread-section-style"><span><i class="fas fa-chevron-down"></i></span>Direct Messages</p>
+            <hr class="horizontal-line"/>
+            <div class="bottom-logout">
+                <div class="logout">
+                    Logout
+                </div>
+            </div>
+        </div>
+        <!-- Right Section -->
+        <div class="main-right-section">
+            <!-- Welcome Section -->
+            <div class="welcome">
+                <div class="inside-welcome">
+                    <img src="./assets/images/5cb480cd5f1b6d3fbadece79.png" alt="" class="image" >
+                    <h2 class="text-heading two">Welcome to Slack</h2>
+                    <p class="paragraph">Slack brings all your team communication into one place, makes it all instantly searchable and available wherever you go.</p>
+                    <p class="paragraph">Our aim is to make your life simpler, more pleasant and more productive.</p>
+                    <Button class="welcome-create-channel">Create Channel</Button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    <script src="./js/addChannel.js"></script>
+    <script src="./js/chatChannel.js"></script>
+</body>
+</html>
